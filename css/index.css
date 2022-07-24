@@ -1,5 +1,91 @@
-
-.content{
-    padding: 100px;
+h2{
+    font-size: 48px;
+    font-weight: 700;
 }
 
+.bg-banner
+{
+    background-image: url(../img/home-header.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-pink{
+    background-color: #FBF2F2;
+}
+
+.banner{
+    padding: 296px 0;
+    text-align: right;
+    color: #650300;
+}
+.banner h1{
+    font-size: 64px;
+    font-weight: 700;
+}
+.banner p {
+    font-size: 36px;
+}
+.banner button{
+    padding: 6px 12px;
+    margin-top: 4px;
+    color: #fff;
+    border: 0;
+    font-size: 20px;
+}
+.banner button:hover{
+    color: lightblue;
+}
+
+.promise{
+    color: #650300;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.promise ul {
+    display: flex;
+    justify-content: space-between;
+}
+.promise ul li {
+    width: 24%;
+}
+.promise ul li img{
+    margin-top: 32px;
+    width: 84px;
+    height: 84px;
+}
+.promise ul li h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+.promise ul li p{
+    font-size: 16px;
+    color: #000;
+    text-align: left;
+    margin-top: 8px;
+}
+
+.classic{
+    color: #650300;
+    text-align: center;
+    padding: 80px 0;
+}
+.classic ul{
+    display: flex;
+    justify-content: space-between;
+}
+.classic ul li {
+    width: 32%;
+}
+.classic ul li img{
+    margin-top: 48px;
+}
+.classic ul li h3{
+    font-family: Roboto;
+    font-weight: 700;
+    margin-top: 8px;
+    color: #aa0601;
+    font-size: 48px;
+}
