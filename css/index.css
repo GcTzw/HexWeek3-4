@@ -25,14 +25,15 @@ h2{
 .banner p {
     font-size: 36px;
 }
-.banner button{
+.banner a{
+    display: inline;
     padding: 6px 12px;
-    margin-top: 4px;
+    margin-top: 10px;
     color: #fff;
     border: 0;
     font-size: 20px;
 }
-.banner button:hover{
+.banner a:hover{
     color: lightblue;
 }
 
@@ -166,4 +167,65 @@ h2{
     margin-top: 48px;
     font-size: 14px;
     color: #707070;
+}
+
+.form{
+    max-width: 640px;
+    padding: 80px 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.form h2{
+    color: #650300;
+}
+.form p {
+    text-align: left;
+    font-size: 20px;
+    margin-top: 48px;
+}
+.form a{
+    padding: 16px 176px;
+    display: block;
+    margin-top: 48px;
+}
+.form .reply{
+    width: 100%;
+    font-size: 16px;
+}
+.form .reply p{
+    margin-top: 16px;
+}
+.reply input{
+    margin-top: 8px;
+    width: 100%;
+    border: 1px solid #000;
+    font-size: 16px;
+    padding: 6px 12px;
+}
+.reply textarea{
+    margin-top: 8px;
+    width: 100%;
+    border: 1px solid #000;
+    font-size: 16px;
+    padding: 6px 12px;
+}
+
+.checkbox{
+    display: flex;
+    margin-top: 16px;
+}
+.checkbox input{
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    margin-right: 4px;
+    border: 1px solid #000;
+}
+.checkbox p{
+    margin-top: 0;
+    font-size: 16px;
 }
