@@ -130,3 +130,40 @@ h2{
     background-position:  center;
     background-size: cover;
 }
+
+.customer
+{
+    padding: 80px 0;
+    text-align: center;
+}
+.customer h2{
+    color: #650300;
+}
+.customer ul {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.customer ul li{
+    width: 23%;
+}
+.opinion{
+    padding: 16px;
+    box-shadow: 0px 2px 6px #DEE2E6;
+    text-align: left;
+}
+.opinion h3
+{
+    font-size: 16px;
+    font-weight: 500;
+}
+.opinion p
+{
+    font-size: 16px;
+    margin-top: 8px;
+}
+.opinion .time{
+    margin-top: 48px;
+    font-size: 14px;
+    color: #707070;
+}
